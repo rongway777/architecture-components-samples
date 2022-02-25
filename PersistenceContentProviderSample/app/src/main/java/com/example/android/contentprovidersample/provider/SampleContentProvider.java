@@ -48,7 +48,7 @@ public class SampleContentProvider extends ContentProvider {
 
     /** The URI for the Cheese table. */
     public static final Uri URI_CHEESE = Uri.parse(
-            "content://" + AUTHORITY + "/" + Cheese.TABLE_NAME);
+            "content://" + AUTHORITY + "/" + Cheese.TABLE_NAME); //content://authority/table_name
 
     /** The match code for some items in the Cheese table. */
     private static final int CODE_CHEESE_DIR = 1;

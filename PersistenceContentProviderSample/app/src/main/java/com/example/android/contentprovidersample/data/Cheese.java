@@ -24,7 +24,6 @@ import androidx.room.PrimaryKey;
 import android.content.ContentValues;
 import android.provider.BaseColumns;
 
-
 /**
  * Represents one record of the Cheese table.
  */
