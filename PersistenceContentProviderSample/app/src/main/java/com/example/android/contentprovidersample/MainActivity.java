@@ -18,7 +18,6 @@ package com.example.android.contentprovidersample;
 
 import android.database.Cursor;
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.loader.app.LoaderManager;
@@ -30,11 +29,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import com.example.android.contentprovidersample.data.Cheese;
 import com.example.android.contentprovidersample.provider.SampleContentProvider;
-
-
 /**
  * Not very relevant to Room. This just shows data from {@link SampleContentProvider}.
  *
